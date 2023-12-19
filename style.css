@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #fdbf00;
+    background-color: #F7CAC9;
 }
 
 .card {
@@ -24,9 +24,6 @@ body {
     transition: 1s;
 }
 
-.card:hover{
-    transform: rotate(-5deg);
-}
 
 .card:hover .outside{
     transform: rotateY(-130deg);
@@ -105,7 +102,7 @@ body {
     ),
     radial-gradient(
         circle at 30px 5px,
-        #994c10 30px,
+        #FF6EC7 30px,
         #fcbf29 31px);
     border-radius: 10px 10px 0 0;
     position: relative;
@@ -164,6 +161,45 @@ body {
 }
 
 .inside h1{
-    font-size: 120px;
+    font-size: 20px;
     line-height: 120px;
+    padding-bottom: 40px;
+}
+
+.letter {
+    text-decoration: none;
+}
+
+.title {
+    font-style: italic;
+}
+
+.inside p {
+    font-size: 12px;
+    padding-top: 36px;
+}
+
+.inside h2 {
+    font-size: 16px;
+    padding-top: 80px;
+}
+
+.inside h1:hover {
+    text-decoration: underline;
+  }
+
+
+.music-player{
+    text-align: center;
+}
+
+audio{
+
+    height: 20px;
+}
+
+footer{
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
 }
